@@ -1,0 +1,62 @@
+.top {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* notice this */
+    position: relative;
+    border-bottom: 1px #e3e3e3 solid;
+
+}
+
+.top__left {
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.headset__icon {
+    color: #F58029;
+
+}
+
+.hotline__text, .hotline__number {
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #ff6600;
+    margin-left: 8px;
+}
+
+.hotline__number {
+    font-weight: 700;
+}
+
+.top__right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 29px;
+    top: 11px;
+}
+
+.logIn__signUp span {
+    margin-left:5px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ff6600;
+}
+
+.flags {
+    margin-left: 20px;
+}
+
+.flag {
+    margin-left: 8px;
+
+}
