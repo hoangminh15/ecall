@@ -32,7 +32,7 @@ function Header() {
               </li>
               <li>
                 <Link to="/products">
-                  <div className="products">
+                  <div className="header__products">
                     <span>SẢN PHẨM</span>
                     <ExpandMoreIcon className="icon__arrow" />
                   </div>

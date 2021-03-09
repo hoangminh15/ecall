@@ -1,0 +1,30 @@
+.product__track {
+    margin-top: 20px;
+
+}
+
+.track {
+    margin-left: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.track__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #ff6600;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.track__title > span {
+    border-bottom: 1px solid #ff6600;
+    padding-bottom: 3px;
+}
+
