@@ -17,8 +17,8 @@ function App() {
         <Products />
         <Solution />
         <Customer />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

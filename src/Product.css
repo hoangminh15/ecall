@@ -5,8 +5,14 @@
     align-items: center;
     /* box-sizing: border-box; */
     max-width: 18%;
-    flex: 20%;
+    flex: 25%;
     margin: 10px;
+}
+
+@media (max-width: 900px) {
+    .product {
+        max-width: 30%;
+    }
 }
 
 .product__image {
