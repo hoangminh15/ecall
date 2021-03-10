@@ -5,9 +5,8 @@ function Product( {name, image}) {
     return (
         <div className="product">
             <img src={image} className="product__image" alt="" />
-            <div className="product__name">
-                {name}
-            </div>
+            <p className="product__name">{name}</p>
+
         </div>
     )
 }

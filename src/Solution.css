@@ -1,0 +1,15 @@
+.solution__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #ff6600;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.solution__title > span {
+    padding-bottom: 5px;
+    border-bottom: #ff6600 1px solid;
+}

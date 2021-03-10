@@ -27,6 +27,10 @@ function ProductTrack({ title, images }) {
         name="Chuông gọi phục vụ không dây"
         image={images[0]}
         />
+        <Product
+        name="Chuông gọi phục vụ không dây"
+        image={images[0]}
+        />
         {/* <div>1</div>
         <div>2</div>
         <div>3</div>
